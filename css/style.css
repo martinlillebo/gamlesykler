@@ -1,5 +1,4 @@
-@import url("komponenter/banner.css");
-@import url("komponenter/navbar.css");
+@import url("komponenter/header.css");
 /*@import url("komponenter/");*/
 /*@import url("komponenter/");*/
 /*@import url("komponenter/");*/
@@ -11,8 +10,19 @@
 /*@import url("komponenter/");*/
 /*@import url("komponenter/");*/
 
+
+/*Overstyrer standard-CSS fra netteleseren*/
+* {
+	margin: 0;
+	padding: 0;
+}
 
 
 body {
+	background-color: ghostwhite;
+}
 
+hr {
+	margin-top: 3px;
+	margin-bottom: 3px;
 }
